@@ -45,9 +45,6 @@ ForEach ($Server in $ServerList)
     $SM = $Server.SM
     $DNS1 = $Server.DNS1
     $DNS2 = $Server.DNS2
-    $DNS3 = $Server.DNS3
-    $DNS4 = $Server.DNS4
-    $DNS5 = $Server.DNS5
     $Role = $Server.Role
     $Memory = $Server.Memory
     $vCPU = $Server.Processors
